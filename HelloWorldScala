@@ -1,0 +1,9 @@
+Class HelloWorldScala{
+
+}
+
+Object HelloWorldScala{
+  def main(arg:ArrayString[]){
+    foreach(println(arg))
+  }
+}
