@@ -3,7 +3,7 @@ Class HelloWorldScala{
 }
 
 Object HelloWorldScala{
-  def main(arg:ArrayString[]){
-    foreach(println(arg))
+  def main(args:ArrayString[]){
+    args.foreach(println)
   }
 }
