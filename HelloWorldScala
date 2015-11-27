@@ -1,9 +1,14 @@
 Class HelloWorldScala{
-
+  var id:String
+  var name:String
+  override def toString{
+    println("id="+id+"  name="+name)
+  }
 }
 
 Object HelloWorldScala{
   def main(args:ArrayString[]){
     args.foreach(println)
+    
   }
 }
